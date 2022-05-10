@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+--blue: #66E2DC;
+--dark-orange: #FA7453;
+--yellow: #FFB964;
+--white: #FCFAF9;
+--black: #191826; 
+}
+
+body {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    background-image: url(assets/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 30px -224px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 165px;
+}
+
+#bg_pattern1 {
+    position: absolute;
+    left: 1128px;
+    top: -40px;
+}
+
+#logo_header {
+    margin-top: 62px;
+    left: 166.15px;
+    top: 61.99px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    color: var(--black);
+    margin: 121px 100px 0 0;
+}
+
+h2 {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.p_box2 {
+    color: var(--white);
+    margin-top: 22px;
+}
+
+.p_price {
+    color: var(--white);
+    margin-top: 39px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+}
+
+.p_main {
+    color: #191826;
+    margin-top: 40px;
+    margin-right: 275px;
+}
+
+
+#box1 {
+    width: 1110px;
+    height: 600px;
+    background-color: var(--black);
+    background-image: url(assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: 336px -42px;
+    margin-top: 321px;
+    border-radius: 10px;
+}
+
+#app_img {
+    width: 312px;
+    height: 642px;
+    margin: -212px 696px 171px 102px;
+}
+
+#box2 {
+    width: 446px;
+    height: 625px;
+    margin: -520px 95px 171px 569px;
+    background: #FA7453;
+    padding: 57px;
+    border-radius: 10px;
+}
+
+.button {
+    width: 333px;
+    height: 61px;
+    border: none;
+    padding: 20px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+#btn1 {
+    color: var(--white);
+    background: var(--black) url('assets/icon-apple.svg') no-repeat;
+    background-position: 90px 19px;
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+
+#btn1:hover {
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+#btn2 {
+    color: var(--black);
+    background: var(--white) url('assets/icon-android.svg') no-repeat;
+    background-position: 74px 21px;
+    margin-top: 16px;
+}
+
+#btn2:hover {
+    background-color: var(--yellow);
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 186px;
+    margin-bottom: 91px;
+    }
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+#contact {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.icon {
+    display: inline-block;
+    padding: 6px;
+}
+
+.icon:hover {
+    background: var(--dark-orange);
+    cursor: pointer;
+}
+
+
